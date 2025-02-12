@@ -1,0 +1,32 @@
+.container {
+    max-width: 1392px;
+    margin: auto;
+}
+
+*a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overscroll-behavior: none;
+    overflow-x: hidden;
+}
+
+@import "variables.scss";
+
+@import "header.scss";
+
+@import "main_banner.scss";
+
+@import "application.scss";
+
+@import "comments.scss";
+
+@import "team.scss";
+
+
+

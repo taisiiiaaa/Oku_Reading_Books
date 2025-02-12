@@ -1,0 +1,108 @@
+.main_banner {
+  margin-bottom: 64px;
+}
+.main_banner .container {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+.main_banner .container .heading_image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_banner .container .heading_image .main_image {
+  mix-blend-mode: multiply;
+  height: auto;
+  display: block;
+}
+.main_banner .container .heading_image article {
+  max-width: 480px;
+}
+.main_banner .container .heading_image article h1 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin-bottom: 30px;
+}
+.main_banner .container .heading_image article .create_account {
+  display: inline-block;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 360%;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #000;
+  padding: 0 48px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+.main_banner .container .heading_image article .sign_link {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+.main_banner .container .heading_image article .sign_link span {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #46474e;
+}
+.main_banner .container .heading_image article .sign_link a {
+  display: inline-block;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #46474e;
+}
+.main_banner .container .learn_more_popup {
+  max-width: 380px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.07);
+  background: #fff;
+  border-radius: 8px;
+  padding: 18px 0;
+  transition: 0.5s;
+}
+.main_banner .container .learn_more_popup:hover {
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.25);
+}
+.main_banner .container .learn_more_popup .reading_is_now {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #131314;
+}
+.main_banner .container .learn_more_popup .learn_more {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 108%;
+  color: #131314;
+  margin-right: 28px;
+}
+.main_banner .container .learn_more_popup img {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  position: static;
+}
+.main_banner .container .learn_more_popup .line_separator {
+  width: 2px;
+  height: 14px;
+  background: #E4E4E4;
+}/*# sourceMappingURL=main_banner.css.map */

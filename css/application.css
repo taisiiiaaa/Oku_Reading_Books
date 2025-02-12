@@ -1,0 +1,616 @@
+.application {
+  margin-bottom: 128px;
+}
+.application .container {
+  width: calc(100vw - 36px);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.application .container h3 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #000;
+  text-align: center;
+}
+.application .container p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: #46474e;
+  text-align: center;
+}
+.application .container .library {
+  background: #f3f4f4;
+  border-radius: 8px;
+  height: 637px;
+  padding-top: 65px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+}
+.application .container .library:hover {
+  background: #fff;
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .library h3 {
+  max-width: 476px;
+  margin: auto;
+}
+.application .container .library img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 50%;
+  bottom: -19%;
+  transform: translateX(-50%);
+  transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+.application .container .library img:hover {
+  transform: translateX(-50%) translateY(-10%);
+}
+.application .container .goal_and_books {
+  display: flex;
+  gap: 24px;
+}
+.application .container .goal_and_books .reading_goal {
+  max-width: 798px;
+  width: 100%;
+  height: 716px;
+  background: #f3f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 436px;
+  transition: 0.5s;
+}
+.application .container .goal_and_books .reading_goal:hover {
+  background: #fff;
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .goal_and_books .reading_goal h3 {
+  max-width: 322px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.application .container .goal_and_books .reading_goal p {
+  max-width: 432px;
+  margin: auto;
+}
+.application .container .goal_and_books .reading_goal img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: -49%;
+  transform: translateX(-50%);
+  transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+.application .container .goal_and_books .reading_goal img:hover {
+  transform: translateX(-50%) translateY(10%);
+}
+.application .container .goal_and_books .favourite_book {
+  max-width: 798px;
+  width: 100%;
+  height: 716px;
+  background: #f3f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 65px;
+  transition: 0.5s;
+}
+.application .container .goal_and_books .favourite_book:hover {
+  background: #fff;
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .goal_and_books .favourite_book h3 {
+  max-width: 303px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.application .container .goal_and_books .favourite_book p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 220%;
+  color: #46474e;
+  max-width: 415px;
+  margin: auto;
+  margin-bottom: 34px;
+}
+.application .container .goal_and_books .favourite_book img {
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -37%;
+  transform: translateX(-50%);
+  transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+.application .container .goal_and_books .favourite_book img:hover {
+  transform: translateX(-50%) translateY(-10%);
+}
+.application .container .statistics {
+  background: #f3f4f4;
+  border-radius: 8px;
+  height: 648px;
+  padding-top: 65px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+}
+.application .container .statistics:hover {
+  background: #fff;
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .statistics h3 {
+  max-width: 350px;
+  margin: auto;
+}
+.application .container .statistics img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 50%;
+  bottom: -26%;
+  transform: translateX(-50%);
+  transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+.application .container .statistics img:hover {
+  transform: translateX(-50%) translateY(-10%);
+}
+.application .container .collections_and_reviews {
+  display: flex;
+  gap: 24px;
+}
+.application .container .collections_and_reviews .collections {
+  max-width: 798px;
+  width: 100%;
+  height: 768px;
+  background: #f3f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 65px;
+  transition: 0.5s;
+}
+.application .container .collections_and_reviews .collections:hover {
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+  background: #fff;
+}
+.application .container .collections_and_reviews .collections h3 {
+  max-width: 245px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.application .container .collections_and_reviews .collections p {
+  max-width: 432px;
+  margin: auto;
+}
+.application .container .collections_and_reviews .collections img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 50%;
+  bottom: -21%;
+  transform: translateX(-50%);
+  transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+.application .container .collections_and_reviews .collections img:hover {
+  transform: translateX(-50%) translateY(-10%);
+}
+.application .container .collections_and_reviews .community_reviews {
+  max-width: 798px;
+  width: 100%;
+  height: 768px;
+  background: #f3f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 65px;
+  transition: 0.5s;
+}
+.application .container .collections_and_reviews .community_reviews:hover {
+  background: #fff;
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .collections_and_reviews .community_reviews h3 {
+  max-width: 416px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.application .container .collections_and_reviews .community_reviews p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 262%;
+  color: #46474e;
+  max-width: 415px;
+  margin: auto;
+  margin-bottom: 34px;
+}
+.application .container .collections_and_reviews .community_reviews img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 50%;
+  bottom: -26%;
+  transform: translateX(-50%);
+  transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+.application .container .collections_and_reviews .community_reviews img:hover {
+  transform: translateX(-50%) translateY(-10%);
+}
+
+.comments .container {
+  max-width: 912px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.comments .container .left_part {
+  max-width: 466px;
+  width: 100%;
+  padding-left: 32px;
+}
+.comments .container .left_part h3 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin-bottom: 26px;
+}
+.comments .container .left_part .under_heading {
+  max-width: 408px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  color: #46474e;
+}
+.comments .container .persons {
+  max-width: 381px;
+  width: 100%;
+  min-height: 454px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.comments .container .persons .fem {
+  position: absolute;
+  border: 1px solid #e8e8e9;
+  border-radius: 8px;
+  max-width: 424px;
+  width: 100%;
+  min-height: 210px;
+  background: #fff;
+  padding: 20px;
+}
+.comments .container .persons .fem .top {
+  display: flex;
+  margin-bottom: 16px;
+}
+.comments .container .persons .fem .top .name {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 110%;
+  color: #000;
+  margin-bottom: 4px;
+}
+.comments .container .persons .fem .top .nickname {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 110%;
+  color: #697882;
+}
+.comments .container .persons .fem .top .avatar {
+  margin-right: 16px;
+}
+.comments .container .persons .fem .top .twitter_logo {
+  margin-left: auto;
+}
+.comments .container .persons .fem p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 147%;
+  color: #000;
+}
+.comments .container .persons .fem .comment_1 {
+  margin-bottom: 17px;
+}
+.comments .container .persons .fem .comment_2 {
+  margin-bottom: 24px;
+}
+.comments .container .persons .fem .date {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #697882;
+}
+.comments .container .persons .joe {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  border: 1px solid #e8e8e9;
+  border-radius: 8px;
+  max-width: 424px;
+  width: 100%;
+  min-height: 200px;
+  background: #fff;
+  padding: 20px;
+}
+.comments .container .persons .joe .top {
+  display: flex;
+  margin-bottom: 16px;
+}
+.comments .container .persons .joe .top .name {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 110%;
+  color: #000;
+  margin-bottom: 4px;
+}
+.comments .container .persons .joe .top .nickname {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 110%;
+  color: #697882;
+}
+.comments .container .persons .joe .top .avatar {
+  margin-right: 16px;
+}
+.comments .container .persons .joe .top .twitter_logo {
+  margin-left: auto;
+}
+.comments .container .persons .joe p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 147%;
+  color: #000;
+}
+.comments .container .persons .joe .comment {
+  margin-bottom: 17px;
+}
+.comments .container .persons .joe .date {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #697882;
+}
+
+.hor_line {
+  max-width: 912px;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  background: #e8e8e9;
+  margin-bottom: 150px;
+}
+
+.team {
+  margin-bottom: 120px;
+}
+.team .container {
+  max-width: 912px;
+  margin: auto;
+  padding-left: 60px;
+}
+.team .container h3 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #000;
+  margin-bottom: 28px;
+}
+.team .container p {
+  max-width: 682px;
+  margin: auto;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 180%;
+  text-align: center;
+  color: #46474e;
+  margin-bottom: 40px;
+}
+.team .container .team_members {
+  display: flex;
+  justify-content: center;
+}
+.team .container .team_members li {
+  max-width: 226px;
+  width: 100%;
+}
+.team .container .team_members li img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.team .container .team_members li .name {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 180%;
+  text-align: center;
+  color: #000;
+  margin-bottom: 3px;
+}
+.team .container .team_members li .country {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 180%;
+  text-align: center;
+  color: #46474e;
+}
+
+.join_us {
+  background: #f6f6f6;
+  position: relative;
+}
+.join_us .hemisphere {
+  width: 100vw;
+  height: auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.join_us .container {
+  max-width: 1264px;
+  padding: 190px 0;
+}
+.join_us .container .headings {
+  max-width: 444px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.join_us .container .headings h3 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #000;
+  margin-bottom: 15px;
+}
+.join_us .container .headings .bookshelf {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 180%;
+  text-align: center;
+  color: #46474e;
+  margin-bottom: 8px;
+}
+.join_us .container .headings .member {
+  max-width: 444px;
+  margin: auto;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 220%;
+  text-align: center;
+  color: #46474e;
+  margin-bottom: 25px;
+}
+.join_us .container .headings a {
+  display: inline-block;
+  align-self: center;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 360%;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #000;
+  padding: 0 48px;
+  border-radius: 8px;
+}
+.join_us .container .book_1 {
+  position: absolute;
+  left: 12.7%;
+  top: 0;
+  z-index: 4;
+}
+.join_us .container .book_2 {
+  position: absolute;
+  right: 7%;
+  top: 29.2%;
+}
+.join_us .container .book_3 {
+  position: absolute;
+  left: 6.1%;
+  bottom: 0;
+}
+
+footer {
+  background: #f6f6f6;
+  position: relative;
+}
+footer .container {
+  max-width: 1264px;
+  padding-left: 88px;
+  padding-right: 50px;
+  padding-top: 36px;
+  padding-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container ul {
+  display: flex;
+  gap: 27px;
+}
+footer .container ul li {
+  display: inline-block;
+  position: relative;
+}
+footer .container ul li::before, footer .container ul li::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 35%;
+  margin-top: -0.5px;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+footer .container ul li::before {
+  left: 0;
+}
+footer .container ul li::after {
+  right: 0;
+  background: #131314;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+footer .container ul li:hover::before {
+  background: #131314;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+footer .container ul li:hover::after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+footer .container ul li a {
+  display: block;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #131314;
+}
+footer .container p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 180%;
+  color: #46474e;
+}
+footer img {
+  position: absolute;
+  right: 4px;
+  bottom: 30px;
+}/*# sourceMappingURL=application.css.map */

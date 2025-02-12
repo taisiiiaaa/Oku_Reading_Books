@@ -1,0 +1,90 @@
+header {
+  border-bottom: 1px solid #E4E4E4;
+}
+header .container {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 24px;
+  padding-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav {
+  flex-grow: 1;
+  padding-left: 132px;
+}
+header .container nav ul {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+header .container nav ul li {
+  display: inline-block;
+  position: relative;
+}
+header .container nav ul li::before, header .container nav ul li::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  cursor: pointer;
+}
+header .container nav ul li::before {
+  left: 0;
+}
+header .container nav ul li::after {
+  right: 0;
+  background: #131314;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+header .container nav ul li:hover::before {
+  background: #131314;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+header .container nav ul li:hover::after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+header .container nav ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #131314;
+}
+header .container .buttons {
+  display: flex;
+  gap: 48px;
+}
+header .container .buttons .burger_menu {
+  display: none;
+}
+header .container .buttons .sign_in a {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 286%;
+  text-align: center;
+  color: #131314;
+  text-decoration: none;
+}
+header .container .buttons .join a {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 286%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 42px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #000;
+  border-radius: 8px;
+}/*# sourceMappingURL=header.css.map */

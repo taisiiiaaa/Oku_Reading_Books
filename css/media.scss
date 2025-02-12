@@ -1,0 +1,540 @@
+.container {
+    width: 100%; 
+    margin: auto; 
+}
+@media only screen and (max-width: 1024px) {
+    .main_banner {
+        .container {
+            padding-top: 16px;
+            .heading_image {
+                .main_image {
+                    width: 520px;
+                }
+                article {
+                    h1 {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .application {
+        .container {
+            width: 988px;
+            h3 {
+                font-size: 34px;
+            }
+            img {
+                width: auto;        
+                height: auto;      
+                max-width: 70vw;    
+                max-height: 44vh;   
+                object-fit: contain;
+            }
+            .library {
+                height: 50vw;
+            }
+            .goal_and_books {
+                .reading_goal {
+                    height: 48vh;
+                    padding-top: 380px;
+                }
+                .favourite_book {
+                    height: 48vh;
+                }
+            }
+            .statistics {
+                height: 50vw;
+            }
+            .collections_and_reviews {
+                .collections {
+                    height: 50vh;
+                }
+                .community_reviews {
+                    height: 50vh;
+                }
+            }
+        }
+    }
+    .comments {
+        .container {
+            flex-direction: column;
+            .left_part {
+                margin-bottom: 56px;
+            }
+            .fem {
+                left: -140px;
+            }
+            .joe {
+                left: 140px;
+            }
+        }
+    }
+    footer {
+        img {
+            bottom: 52px;
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+   .application {
+        .container {
+            width: calc(100vw - 36px);
+        }
+   }
+}
+@media only screen and (max-width: 834px) {
+    .main_banner {
+        .container {
+            padding-top: 24px;
+            .heading_image {
+                margin-bottom: 40px;
+                .main_image {
+                    width: 420px;
+                }
+                article {
+                    h1 {
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+    }
+    .application {
+        .container {
+            max-width: 798px;
+            .library {
+                height: 52vw;
+            }
+            .goal_and_books {
+                flex-direction: column;
+                .reading_goal {
+                    height: 46vh;
+                    padding-top: 300px;
+                }
+                .favourite_book {
+                    height: 50vh;
+                }
+            }
+            .statistics {
+                height: 52vw;
+            }
+            .collections_and_reviews {
+                flex-direction: column;
+                .collections {
+                    height: 51vh;
+                }
+                .community_reviews {
+                    height: 49vh;
+                }
+            }
+        }
+   }
+   .comments {
+        .container {
+            .fem {
+                left: -140px;
+            }
+            .joe {
+                left: 110px;
+            }
+        }
+    }
+    .team {
+        .container {
+            padding-left: 0;
+        }
+    }
+}
+@media only screen and (max-width: 820px) {
+    header {
+        .container {
+            .buttons {
+                gap: 32px;
+            }
+        }
+    }
+    .application {
+        .container {
+            max-width: 784px;
+        }
+    }
+}
+@media only screen and (max-width: 800px) {
+    .application {
+        .container {
+            max-width: 764px;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .application {
+        .container {
+            max-width: 732px;
+            .statistics {
+                height: 54vw;
+            }
+        }
+    }
+    .comments {
+        .container {
+            .fem {
+                left: -110px;
+            }
+        }
+    }
+    footer {
+        img {
+            width: 200px;
+        }
+    }
+}
+@media only screen and (max-width: 440px) {
+    header {
+        .container {
+            nav {
+                display: none;
+            }
+            .buttons {
+                .sign_in {
+                    display: none;
+                }
+                .join {
+                    display: none;
+                }
+                .burger_menu {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    .main_banner {
+        .container {
+            padding-top: 56px;
+            padding-left: 32px;
+            padding-right: 32px;
+            .heading_image {
+                flex-direction: column;
+                row-gap: 40px;
+                margin-bottom: 8px;
+                .main_image {
+                    width: 370px;
+                }
+                article {
+                    .create_account {
+                        font-size: 13px;
+                        padding: 0 38px;
+                    }
+                }
+            }
+        }
+    }
+    .application {
+        .container {
+            max-width: 404px;
+            h3 {
+                font-size: 24px;
+                width: calc(100% - 48px);
+            }
+            img {
+                width: auto;        
+                height: auto;      
+                max-width: 82vw;    
+                max-height: 40vh;   
+                object-fit: contain;
+            }
+            .library {
+                padding-top: 40px;
+                height: 31vh;
+            }
+            .goal_and_books {
+                .reading_goal {
+                    height: 48vh;
+                    padding-top: 200px;
+                    p {
+                        font-size: 14px;
+                        width: calc(100% - 48px);
+                    }
+                    img {
+                        top: -40%;
+                    }
+                }
+                .favourite_book {
+                    padding-top: 40px;
+                    height: 50vh;
+                    p {
+                        width: calc(100% - 48px);
+                    }
+                    img {
+                        bottom: -29%;
+                    }
+                }
+            }
+            .statistics {
+                padding-top: 40px;
+                height: 30vh;
+            }
+            .collections_and_reviews {
+                .collections {
+                    padding-top: 40px;
+                    height: 48vh;
+                }
+                .community_reviews {
+                    padding-top: 40px;
+                    height: 46vh;
+                }
+            }
+        }
+    }
+    .comments {
+        .container {
+            .persons {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                row-gap: 24px;
+                .fem {
+                    width: calc(100% - 48px); 
+                    position: static;
+                    align-self: center;
+                    .comment_1 {
+                        font-size: 12px;
+                    }
+                    .comment_2 {
+                        font-size: 12px;
+                    }
+                }
+                .joe {
+                    position: static;
+                    width: calc(100% - 48px);
+                    align-self: center;
+                    comment {
+                        font-size: 12px;
+                    }
+                }
+            }
+            .left_part {
+                padding-left: 0;
+                width: calc(100% - 48px);
+                h3 {
+                    font-size: 38px;
+                }
+                .under_heading {
+                    width: calc(100% - 40px);
+                }
+            }
+        }
+    }
+    .team {
+        .container {
+            width: calc(100% - 36px);
+            h3 {
+                font-size: 38px;
+            }
+            p {
+                width: calc(100% - 16px);
+                font-size: 15px;
+            }
+        }
+    }
+    .join_us {
+        .container {
+            max-width: 360px;
+            .headings {
+                h3 {
+                    font-size: 38px;
+                }
+            }
+            img {
+                height: 12%;
+            }
+            .book_2 {
+                top: 19%;
+            }
+        }
+    }
+    footer {
+        .container {
+            flex-direction: column;
+            row-gap: 32px;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 120px;
+            padding-bottom: 16px;
+            width: 100vw;
+            ul {
+                justify-content: center;
+            }
+            p {
+                text-align: center;
+            }
+        }
+        img {
+            width: 150px;
+            bottom: 45%;
+        }
+    }
+}
+@media only screen and (max-width: 428px) {
+    .application {
+        .container {
+            max-width: 392px;
+        }
+    }
+}
+@media only screen and (max-width: 414px) {
+    .application {
+        .container {
+            max-width: 378px;
+        }
+    }
+}
+@media only screen and (max-width: 412px) {
+    .application {
+        .container {
+            max-width: 376px;
+
+        }
+    }
+    .join_us {
+        .container {
+            .headings {
+                max-width: 365px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 393px) {
+    .main_banner {
+        .container {
+            .learn_more_popup {
+                gap: 8px;
+            }
+        }
+    }
+    .application {
+        .container {
+            max-width: 357px;
+        }
+    }
+    .comments {
+        .container {
+            .left_part {
+                h3 {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+    .team {
+        .container {
+            .team_members {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+    .join_us {
+        .container {
+            .headings {
+                max-width: 365px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 390px) {
+    .main_banner {
+        .container {
+            .learn_more_popup {
+                .reading_is_now {
+                    font-size: 12px;
+                }
+                .learn_more {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .application {
+        .container {
+            max-width: 354px;
+        }
+    }
+}
+@media only screen and (max-width: 375px) {
+    .application {
+        .container {
+            max-width: 339px;
+        }
+    }
+}
+@media only screen and (max-width: 360px) {
+    .main_banner {
+        .container {
+            padding-left: 24px;
+            padding-right: 24px;
+            .heading_image {
+                .main_image {
+                    width: 340px;
+                }
+            }
+            .learn_more_popup {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+    .application {
+        .container {
+            max-width: 324px;
+            .library {
+                padding-top: 40px;
+                height: 32vh;
+            }
+            .goal_and_books {
+                .reading_goal {
+                    height: 54vh;
+                    padding-top: 200px;
+                    p {
+                        font-size: 14px;
+                        width: calc(100% - 48px);
+                    }
+                    img {
+                        top: -37%;
+                    }
+                }
+                .favourite_book {
+                    padding-top: 40px;
+                    height: 55vh;
+                    p {
+                        width: calc(100% - 48px);
+                    }
+                    img {
+                        bottom: -29%;
+                    }
+                }
+            }
+            .statistics {
+                padding-top: 40px;
+                height: 32vh;
+            }
+            .collections_and_reviews {
+                .collections {
+                    padding-top: 40px;
+                    height: 48vh;
+                }
+                .community_reviews {
+                    padding-top: 40px;
+                    height: 46vh;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 320px) {
+    
+}
+@media only screen and (max-width: 280px) {
+    
+}
+

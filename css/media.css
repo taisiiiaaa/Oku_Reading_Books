@@ -192,7 +192,7 @@
   }
   .application .container .library {
     padding-top: 40px;
-    height: 31vh;
+    height: 33vh;
   }
   .application .container .goal_and_books .reading_goal {
     height: 48vh;
@@ -217,7 +217,7 @@
   }
   .application .container .statistics {
     padding-top: 40px;
-    height: 30vh;
+    height: 33vh;
   }
   .application .container .collections_and_reviews .collections {
     padding-top: 40px;
@@ -277,6 +277,10 @@
   }
   .join_us .container .headings h3 {
     font-size: 38px;
+  }
+  .join_us .container .headings a {
+    font-size: 13px;
+    padding: 0 38px;
   }
   .join_us .container img {
     height: 12%;

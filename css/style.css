@@ -256,6 +256,16 @@ header .container .buttons .join a {
   background: #fff;
   box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
 }
+.application .container .library:hover img {
+  transform: translateX(-50%) translateY(-10%);
+}
+.application .container .library.active {
+  background: #fff;
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .library.active img {
+  transform: translateX(-50%) translateY(-10%);
+}
 .application .container .library h3 {
   max-width: 476px;
   margin: auto;
@@ -269,9 +279,6 @@ header .container .buttons .join a {
   bottom: -19%;
   transform: translateX(-50%);
   transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;
-}
-.application .container .library img:hover {
-  transform: translateX(-50%) translateY(-10%);
 }
 .application .container .goal_and_books {
   display: flex;
@@ -292,6 +299,16 @@ header .container .buttons .join a {
   background: #fff;
   box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
 }
+.application .container .goal_and_books .reading_goal:hover img {
+  transform: translateX(-50%) translateY(10%);
+}
+.application .container .goal_and_books .reading_goal.active {
+  background: #fff;
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .goal_and_books .reading_goal.active img {
+  transform: translateX(-50%) translateY(10%);
+}
 .application .container .goal_and_books .reading_goal h3 {
   max-width: 322px;
   margin: auto;
@@ -311,9 +328,6 @@ header .container .buttons .join a {
   transform: translateX(-50%);
   transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;
 }
-.application .container .goal_and_books .reading_goal img:hover {
-  transform: translateX(-50%) translateY(10%);
-}
 .application .container .goal_and_books .favourite_book {
   max-width: 798px;
   width: 100%;
@@ -328,6 +342,16 @@ header .container .buttons .join a {
 .application .container .goal_and_books .favourite_book:hover {
   background: #fff;
   box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .goal_and_books .favourite_book:hover img {
+  transform: translateX(-50%) translateY(-10%);
+}
+.application .container .goal_and_books .favourite_book.active {
+  background: #fff;
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .goal_and_books .favourite_book.active img {
+  transform: translateX(-50%) translateY(-10%);
 }
 .application .container .goal_and_books .favourite_book h3 {
   max-width: 303px;
@@ -352,9 +376,6 @@ header .container .buttons .join a {
   transform: translateX(-50%);
   transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;
 }
-.application .container .goal_and_books .favourite_book img:hover {
-  transform: translateX(-50%) translateY(-10%);
-}
 .application .container .statistics {
   background: #f3f4f4;
   border-radius: 8px;
@@ -367,6 +388,16 @@ header .container .buttons .join a {
 .application .container .statistics:hover {
   background: #fff;
   box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .statistics:hover img {
+  transform: translateX(-50%) translateY(-10%);
+}
+.application .container .statistics.active {
+  background: #fff;
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .statistics.active img {
+  transform: translateX(-50%) translateY(-10%);
 }
 .application .container .statistics h3 {
   max-width: 350px;
@@ -381,9 +412,6 @@ header .container .buttons .join a {
   bottom: -26%;
   transform: translateX(-50%);
   transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;
-}
-.application .container .statistics img:hover {
-  transform: translateX(-50%) translateY(-10%);
 }
 .application .container .collections_and_reviews {
   display: flex;
@@ -404,6 +432,16 @@ header .container .buttons .join a {
   box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
   background: #fff;
 }
+.application .container .collections_and_reviews .collections:hover img {
+  transform: translateX(-50%) translateY(-10%);
+}
+.application .container .collections_and_reviews .collections.active {
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+  background: #fff;
+}
+.application .container .collections_and_reviews .collections.active img {
+  transform: translateX(-50%) translateY(-10%);
+}
 .application .container .collections_and_reviews .collections h3 {
   max-width: 245px;
   margin: auto;
@@ -423,9 +461,6 @@ header .container .buttons .join a {
   transform: translateX(-50%);
   transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;
 }
-.application .container .collections_and_reviews .collections img:hover {
-  transform: translateX(-50%) translateY(-10%);
-}
 .application .container .collections_and_reviews .community_reviews {
   max-width: 798px;
   width: 100%;
@@ -440,6 +475,16 @@ header .container .buttons .join a {
 .application .container .collections_and_reviews .community_reviews:hover {
   background: #fff;
   box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .collections_and_reviews .community_reviews:hover img {
+  transform: translateX(-50%) translateY(-10%);
+}
+.application .container .collections_and_reviews .community_reviews.active {
+  background: #fff;
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+}
+.application .container .collections_and_reviews .community_reviews.active img {
+  transform: translateX(-50%) translateY(-10%);
 }
 .application .container .collections_and_reviews .community_reviews h3 {
   max-width: 416px;
@@ -465,9 +510,6 @@ header .container .buttons .join a {
   bottom: -26%;
   transform: translateX(-50%);
   transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;
-}
-.application .container .collections_and_reviews .community_reviews img:hover {
-  transform: translateX(-50%) translateY(-10%);
 }
 
 .comments .container {
@@ -834,14 +876,14 @@ footer img {
 }
 
 .autoShow {
-  animation: autoShowAnimation both;
-  animation-timeline: view(88% 0%);
+  animation: autoShowAnimation 1s both;
+  animation-timeline: view(95% 0%);
+  will-change: transform, opacity;
 }
-
 @keyframes autoShowAnimation {
   from {
     opacity: 0;
-    transform: translateY(200px) scale(0.3);
+    transform: translateY(100px) scale(0.5);
   }
   to {
     opacity: 1;

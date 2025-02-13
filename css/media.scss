@@ -245,7 +245,7 @@
             }
             .library {
                 padding-top: 40px;
-                height: 31vh;
+                height: 33vh;
             }
             .goal_and_books {
                 .reading_goal {
@@ -272,7 +272,7 @@
             }
             .statistics {
                 padding-top: 40px;
-                height: 30vh;
+                height: 33vh;
             }
             .collections_and_reviews {
                 .collections {
@@ -343,6 +343,10 @@
             .headings {
                 h3 {
                     font-size: 38px;
+                }
+                a {
+                    font-size: 13px;
+                    padding: 0 38px;
                 }
             }
             img {

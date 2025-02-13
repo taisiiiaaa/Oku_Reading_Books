@@ -38,6 +38,16 @@
             &:hover {
                 background: #fff;
                 box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+                img {
+                    transform: translateX(-50%) translateY(-10%);
+                }
+            }
+            &.active {
+                background: #fff;
+                box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+                img {
+                    transform: translateX(-50%) translateY(-10%);
+                }
             }
             h3 {
                 max-width: 476px;
@@ -51,9 +61,9 @@
                 bottom: -19%;
                 transform: translateX(-50%); 
                 transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;               
-                &:hover {
-                    transform: translateX(-50%) translateY(-10%);
-                }
+                // &:hover {
+                //     transform: translateX(-50%) translateY(-10%);
+                // }
             }
         }
         .goal_and_books {
@@ -73,6 +83,16 @@
                 &:hover {
                     background: #fff;
                     box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+                    img {
+                        transform: translateX(-50%) translateY(10%);
+                    }
+                }
+                &.active {
+                    background: #fff;
+                    box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+                    img {
+                        transform: translateX(-50%) translateY(10%);
+                    }
                 }
                 h3 {
                     max-width: 322px;
@@ -91,9 +111,9 @@
                     top: -49%;
                     transform: translateX(-50%); 
                     transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;               
-                    &:hover {
-                        transform: translateX(-50%) translateY(10%);
-                    }
+                    // &:hover {
+                    //     transform: translateX(-50%) translateY(10%);
+                    // }
                 }
             }
             .favourite_book {
@@ -110,6 +130,16 @@
                 &:hover {
                     background: #fff;
                     box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+                    img {
+                        transform: translateX(-50%) translateY(-10%);
+                    }
+                }
+                &.active {
+                    background: #fff;
+                    box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+                    img {
+                        transform: translateX(-50%) translateY(-10%);
+                    }
                 }
                 h3 {
                     max-width: 303px;
@@ -134,9 +164,9 @@
                     bottom: -37%;
                     transform: translateX(-50%); 
                     transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;               
-                    &:hover {
-                        transform: translateX(-50%) translateY(-10%);
-                    }
+                    // &:hover {
+                    //     transform: translateX(-50%) translateY(-10%);
+                    // }
                 }
             }
         }
@@ -152,6 +182,16 @@
             &:hover {
                 background: #fff;
                 box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+                img {
+                    transform: translateX(-50%) translateY(-10%);
+                }
+            }
+            &.active {
+                background: #fff;
+                box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+                img {
+                    transform: translateX(-50%) translateY(-10%);
+                }
             }
             h3 {
                 max-width: 350px;
@@ -165,9 +205,9 @@
                 bottom: -26%;
                 transform: translateX(-50%); 
                 transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;               
-                &:hover {
-                    transform: translateX(-50%) translateY(-10%);
-                }
+                // &:hover {
+                //     transform: translateX(-50%) translateY(-10%);
+                // }
             }
         }
         .collections_and_reviews {
@@ -187,6 +227,16 @@
                 &:hover {
                     box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
                     background: #fff;
+                    img {
+                        transform: translateX(-50%) translateY(-10%);
+                    }
+                }
+                &.active {
+                    box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+                    background: #fff;
+                    img {
+                        transform: translateX(-50%) translateY(-10%);
+                    }
                 }
                 h3 {
                     max-width: 245px;
@@ -205,9 +255,9 @@
                     bottom: -21%;
                     transform: translateX(-50%); 
                     transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;               
-                    &:hover {
-                        transform: translateX(-50%) translateY(-10%);
-                    }
+                    // &:hover {
+                    //     transform: translateX(-50%) translateY(-10%);
+                    // }
                 }
             }
             .community_reviews {
@@ -224,6 +274,16 @@
                 &:hover {
                     background: #fff;
                     box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+                    img {
+                        transform: translateX(-50%) translateY(-10%);
+                    }
+                }
+                &.active {
+                    background: #fff;
+                    box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.18);
+                    img {
+                        transform: translateX(-50%) translateY(-10%);
+                    }
                 }
                 h3 {
                     max-width: 416px;
@@ -248,9 +308,9 @@
                     bottom: -26%;
                     transform: translateX(-50%); 
                     transition: transform 0.6s ease-in-out, transform 0.6s ease-in-out;               
-                    &:hover {
-                        transform: translateX(-50%) translateY(-10%);
-                    }
+                    // &:hover {
+                    //     transform: translateX(-50%) translateY(-10%);
+                    // }
                 }
             }
         }
@@ -621,15 +681,31 @@ footer {
     }
 }
 
+
 .autoShow {
-    animation: autoShowAnimation both;
-    animation-timeline: view(88% 0%);
+    -webkit-animation: autoShowAnimation 1s both; 
+    animation: autoShowAnimation 1s both;
+    animation-timeline: view(95% 0%);
+    will-change: transform, opacity; 
+}
+
+@-webkit-keyframes autoShowAnimation {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(100px) scale(0.5);
+        transform: translateY(100px) scale(0.5);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+    }
 }
 
 @keyframes autoShowAnimation {
     from {
         opacity: 0;
-        transform: translateY(200px) scale(0.3);
+        transform: translateY(100px) scale(0.5);
     }
     to {
         opacity: 1;

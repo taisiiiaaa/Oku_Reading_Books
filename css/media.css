@@ -249,7 +249,7 @@
     width: calc(100% - 48px);
     align-self: center;
   }
-  .comments .container .persons .joe comment {
+  .comments .container .persons .joe .comment {
     font-size: 12px;
   }
   .comments .container .left_part {
@@ -258,9 +258,10 @@
   }
   .comments .container .left_part h3 {
     font-size: 38px;
+    text-align: center;
   }
   .comments .container .left_part .under_heading {
-    width: calc(100% - 40px);
+    text-align: center;
   }
   .team .container {
     width: calc(100% - 36px);
@@ -270,7 +271,7 @@
   }
   .team .container p {
     width: calc(100% - 16px);
-    font-size: 15px;
+    font-size: 16px;
   }
   .join_us .container {
     max-width: 360px;
